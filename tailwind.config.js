@@ -5,7 +5,7 @@ module.exports = {
     content: ["./src/**/*.html"],
   },
   presets: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     screens: {
       sm: "640px",
@@ -914,5 +914,5 @@ module.exports = {
     wordBreak: ["responsive"],
     zIndex: ["responsive", "focus-within", "focus"],
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
