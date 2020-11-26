@@ -1,4 +1,4 @@
-# Tailwindcss 2.x Webpack Setup
+# Tailwindcss 2.x Sidebar Navigation with custom scrollbars
 
 To run dev server
 
